@@ -9,12 +9,15 @@
     "prepare": "svelte-kit sync"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.9",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-replace": "^4.0.0",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
+    "babel-loader": "^8.2.4",
     "dotenv": "^16.0.0",
-    "svelte": "^3.46.0"
+    "svelte": "^3.47.0",
+    "svelte-loader": "^3.1.2"
   },
   "type": "module",
   "dependencies": {
